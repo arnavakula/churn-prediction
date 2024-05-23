@@ -29,7 +29,10 @@ st.sidebar.success('Select a page above')
 
 st.write('using data to predict and prevent customer churn')
 
-img = Image.open('/Users/arnavakula/Code/aisc/churn-prediction/app/churn_img.jpg')
-
-st.image(img)
+st.markdown(
+    """
+    <img src="https://www.touchpoint.com/wp-content/uploads/2023/02/5.-Customer-churn-article.png" alt="Customer Churn Prediction Dashboard Home Page Mockup" width="700">
+    """,
+    unsafe_allow_html=True
+)
 
